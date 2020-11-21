@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercearia Fabinho</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="imgs/Logomercearia.png"><br>
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#catalogo">Catálogo</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </header><!--menu-->
+    
+    <section>
+        <div id="catalogo" class="catalogo">
+            <h1>CATÁLOGO</h1>
+            <div class="blocos">
+                <h2>Alimentos</h2>
+                <img src="imgs/Alimentos.png" class="img-blc">
+                <p class="paragrafo">Itens alimentícios para a sua refeição</p>
+                <a href="">Saiba Mais</a>
+            </div> 
+            <div class="blocos">
+                <h2>Limpeza</h2>
+                <img src="imgs/Limpeza.png" class="img-blc">
+                <p class="paragrafo">Itens de limpeza para uma casa mais limpa</p>
+                <a href="">Saiba Mais</a>
+            </div>
+            <div class="blocos">
+                <h2>Higiene</h2>
+                <img src="imgs/Higiene.png" class="img-blc">
+                <p class="paragrafo">Itens para a sua higiene pessoal e sua saúde</p>
+                <a href="">Saiba Mais</a>
+            </div>
+            <div class="clear"></div>
+            <div class="left"><p><</p></div>
+            <div class="right"><p>></p></div>
+            <div class="clear"></div>
+        </div><!--catalogo-->
+        <div id="sobre" class="sobre">
+            <div class="sobre-img"><img src="/imgs/pessoaaleatoria.png"></div>
+            <div class="sobre-text">
+                <h2>SOBRE NÓS</h2>
+                <p>olá eu sou o fábio, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit nulla ullam consequuntur repudiandae provident, est beatae expedita, natus possimus autem dignissimos perspiciatis cumque vel nihil, libero enim omnis veritatis fuga.</p>
+                <a href="#contato">Entre em Contato</a>
+            </div>
+        </div><!--sobre-->
+        <div id="contato"class="contato">
+            <h2 class="titulo">Fale conosco</h2>
+            <div class="tel">
+                <img src="imgs/phone.png">
+                <h2>(27)9 9999-9999</h2>
+                <form>
+                    <p>ou se preferir</p>
+                    <input type="text"  placeholder="*Nome" required><br>
+                    <input type="email"  placeholder="*E-mail" required><br>
+                    <textarea></textarea><br>
+                    <input type="submit" value="Enviar" >
+                </form>
+            </div>
+            <div class="loc">
+                <h2>Faça uma Visita</h2>
+                <div class="mapwrape">
+                    <div class="map" id="mapa"></div>
+                </div>
+            </div>
+        </div><!--Contato-->
+    </section><!--sessoes do site-->
+
+    <footer>
+        <div class="rodape">
+            <p>&copy; Todos os direitos reservados</p><p>superrecgt@gmail.com</p>
+            
+        </div>
+    </footer>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNP8ZMVxSQfN3yMcfQcfttQa-KkTCzEK0&callback=initMap"></script>
+    <script src="/js/functions.js"></script>
+</body>
+</html>
