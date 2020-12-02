@@ -229,4 +229,27 @@ contato
         padding-left: 5%;
     }
 }
+
+
+
+/* página 2*/
+
+.body2{
+    background-color: rgb(8, 60, 122);
+}
+.cont{
+    background-color: cornflowerblue;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    margin: auto;
+    color:  rgb(8, 60, 122);
+    border-radius: 60px;
+}
+.cont a, .cont p{
+    padding:100px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
     
